@@ -2,6 +2,7 @@
 ### 멤버
 
 김동욱,정보시스템학과,dongwook1214@gmail.com
+이재흠,컴퓨터소프트웨어학과,rethinking21@gmail.com
 
 ### 동기&목표
 
@@ -11,3 +12,6 @@
 
 저희 팀은 딥러닝을 통해 폭우를 미리 예측하여 재난에 대응할 수 있는 가능성을 만들어보고자 합니다.
 
+
+### 데이터 셋
+https://data.gg.go.kr/portal/data/service/selectServicePage.do?page=1&rows=10&sortColumn=LOAD_DTTM&sortDirection=DESC&infId=38DLXL0HLW6TEA1J405N24644760&infSeq=1&order=4#none
