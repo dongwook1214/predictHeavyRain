@@ -39,7 +39,7 @@ df.head(5)
 
 #df = df.fillna(0)
 
-#train set과 data set 나누는 기준
+#train set과 test set 나누는 기준
 devideTrainSetTestSet = 2000
 
 training_set = df.iloc[:devideTrainSetTestSet, 2:3].values
