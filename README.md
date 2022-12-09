@@ -121,6 +121,7 @@ LSTM은 RNN의 한 종류이며 곱하기 연산이 아닌 더하기 연산을 �
 
 실제로 LSTM은 RNN 보다 훨씬 향상된 성능을 보여주며 이는 저희의 프로젝트에 적합해 보입니다.
 
+
 reference.
 
 [QANDA 머신 러닝 스터디](https://blog.mathpresso.com/mathpresso-%EB%A8%B8%EC%8B%A0-%EB%9F%AC%EB%8B%9D-%EC%8A%A4%ED%84%B0%EB%94%94-12-rnn-recurrent-neural-nerwork-1-b28968016ca9)
@@ -142,7 +143,7 @@ reference.
 
 ## 데이터 처리 (encoding: ansi)
 
-[데이터 처리 코드](https://www.notion.so/9751d88fa3f249f198c9f64d80b80127)
+[데이터 처리 코드](https://github.com/dongwook1214/predictHeavyRain/blob/master/dataCode.md)
 
 - 데이터 파일
     - 1시간 단위 (날짜 누락 없음)
@@ -160,7 +161,7 @@ reference.
 
 일단 1일 단위로 나누어져 있는 데이터를 가져와 학습시켜보았습니다.
 
-[학습 코드](https://www.notion.so/1695ac23a86748f28195660bfcdb7b22)
+[학습 코드](https://github.com/dongwook1214/predictHeavyRain/blob/master/mlCode.md)
 
 ![Untitled](https://user-images.githubusercontent.com/69969001/206642933-ce99fce1-787b-49f0-85ee-66bade6c603a.png)
 
@@ -200,6 +201,7 @@ reference.
 
 3시간 데이터로 미래를 예측해보기로 했습니다.
 
+
 reference.
 
 [시계열 예측: LSTM 모델로 주가 예측하기](https://insightcampus.co.kr/2021/11/11/%EC%8B%9C%EA%B3%84%EC%97%B4-%EC%98%88%EC%B8%A1-lstm-%EB%AA%A8%EB%8D%B8%EB%A1%9C-%EC%A3%BC%EA%B0%80-%EC%98%88%EC%B8%A1%ED%95%98%EA%B8%B0/)
@@ -210,7 +212,7 @@ reference.
 
 저희는 앞서 만든 (3시간 단위의,ephoc 100, batchSize 32)모델을 통해 2년간의 강수량을 예측하고자 했습니다.
 
-[미래 예측 코드 & 코드 설명](https://www.notion.so/b5c6380a9394434393dca1e0892965a5)
+[미래 예측 코드 & 코드 설명](https://github.com/dongwook1214/predictHeavyRain/blob/master/predictCode.md)
 
 예측 결과입니다. 이는 테스트 셋에서와는 다르게 매우 좋지 않은 결과로 보입니다.
 
